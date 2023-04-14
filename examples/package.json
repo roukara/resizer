@@ -12,6 +12,6 @@
     "vite": "^4.2.0"
   },
   "dependencies": {
-    "@chenziappu/resizer": "^0.0.6"
+    "@chenziappu/resizer": "^1.0.0"
   }
 }
