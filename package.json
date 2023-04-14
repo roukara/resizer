@@ -1,0 +1,40 @@
+{
+  "name": "@chenziappu/resizer",
+  "version": "1.0.0",
+  "description": "Resizer is a simple JavaScript library for handling window resize events.",
+  "author": {
+    "name": "Tsukasa Aoki",
+    "url": "https://twitter.com/chenziappu"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/resizer.umd.js",
+  "module": "./dist/resizer.mjs",
+  "types": "./dist/Resizer.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/resizer.mjs",
+      "require": "./dist/resizer.umd.js"
+    }
+  },
+  "keywords": [
+    "resize",
+    "size",
+    "timeout"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenziappu/resizer.git"
+  },
+  "license": "ISC",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4",
+    "vite": "^4.2.1"
+  }
+}

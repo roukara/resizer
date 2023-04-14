@@ -1,0 +1,9 @@
+{
+  "include": ["./src/**/*"],
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "removeComments": true,
+    "declarationDir": "./dist"
+  }
+}
