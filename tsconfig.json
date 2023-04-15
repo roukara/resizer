@@ -4,6 +4,8 @@
     "declaration": true,
     "emitDeclarationOnly": true,
     "removeComments": true,
+    "strict": true,
+    "strictNullChecks": false,
     "declarationDir": "./dist"
   }
 }
