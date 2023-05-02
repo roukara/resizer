@@ -1,6 +1,6 @@
 {
   "name": "@chenziappu/resizer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Resizer is a simple JavaScript library for handling window resize events.",
   "author": {
     "name": "Tsukasa Aoki",
