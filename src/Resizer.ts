@@ -36,15 +36,13 @@ export default class Resizer {
     this.height = window.innerHeight;
     this.dpr = Math.min(window.devicePixelRatio, 2);
 
-    if (this.handlers.length) {
-      this.handlers.forEach(handler => {
-        handler.handler({
-          width: this.width,
-          height: this.height,
-          dpr: this.dpr
-        });
+    this.handlers.forEach(handler => {
+      handler.handler({
+        width: this.width,
+        height: this.height,
+        dpr: this.dpr
       });
-    }
+    });
   }
 
   private resizeWithDelay() {
