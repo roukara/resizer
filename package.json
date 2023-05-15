@@ -1,10 +1,10 @@
 {
-  "name": "@chenziappu/resizer",
-  "version": "1.0.1",
+  "name": "@roukara/resizer",
+  "version": "0.0.1",
   "description": "Resizer is a simple JavaScript library for handling window resize events.",
   "author": {
     "name": "Tsukasa Aoki",
-    "url": "https://twitter.com/chenziappu"
+    "url": "https://twitter.com/roukara_"
   },
   "files": [
     "dist"
@@ -25,7 +25,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/chenziappu/resizer.git"
+    "url": "https://github.com/roukara/resizer.git"
   },
   "license": "ISC",
   "scripts": {

@@ -1,4 +1,4 @@
-# @chenziappu/resizer
+# @roukara/resizer
 
 Resizer is a simple JavaScript library for handling window resize events. It provides a convenient way to register callback functions that will be executed every time the window size changes, and it also allows you to control the frequency of the resize events by specifying a delay time.
 
@@ -7,14 +7,14 @@ Resizer is a simple JavaScript library for handling window resize events. It pro
 ## Install
 
 ```sh
-npm install @chenziappu/resizer
+npm install @roukara/resizer
 ```
 ```js
-import Resizer from '@chenziappu/resizer';
+import Resizer from '@roukara/resizer';
 ```
 or
 ```html
-<script src="https://unpkg.com/@chenziappu/resizer"></script>
+<script src="https://unpkg.com/@roukara/resizer"></script>
 ```
 
 <br>
